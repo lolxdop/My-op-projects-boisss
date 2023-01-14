@@ -96,13 +96,13 @@ misno2=misno1 + dif1
 misno3=misno2 + dif1
     
 if dif2!=dif1:
-    print(a , "," , b , "," , "missing number is" , misno1 , "," , d , "," , e)
+    print(a , "," , b , "," , "missing number is" , misno1 , "," , misno2 , "," , misno3)
     
 if dif3!=dif1:
-    print(a , "," , b , "," , misno1 , "," , "missing number is" , misno2 , "," , e)
+    print(a , "," , b , "," , misno1 , "," , "missing number is" , misno2 , "," , misno3)
     
 if dif4!=dif1:
-    print(a , "," , b , "," , misno2 , "," , misno3 , "," , "missing number is" , misno3)
+    print(a , "," , b , "," , misno1 , "," , misno2 , "," , "missing number is" , misno3)
     
 if dif2 and dif3 and dif4 != dif1:
     print(a , "," , b , "," , "missing number are" , misno1 , "," , misno2 , "," , misno3)
